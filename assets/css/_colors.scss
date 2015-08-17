@@ -1,0 +1,12 @@
+// make classes for the colors
+@each $name, $color in $colors {
+	$scale: 20%;
+	
+	.col-#{$name}, .col-#{$name}-hover:hover {		color: #{$color} !important; }
+	.col-l#{$name}, .col-l#{$name}-hover:hover {	color: lighten($color, $scale) !important; }
+	.col-d#{$name}, .col-d#{$name}-hover:hover {	color: darken($color, $scale) !important;	}
+	
+	.bg-#{$name}, .bg-#{$name}-hover:hover {		background-color: 	#{$color} !important; }
+	.bg-l#{$name}, .bg-l#{$name}-hover:hover {		background-color: 	lighten($color, $scale) !important; }
+	.bg-d#{$name}, .bg-d#{$name}-hover:hover {		background-color: 	darken($color, $scale) !important; }
+}

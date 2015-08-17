@@ -1,0 +1,42 @@
+.signature {
+	font-family: "Harlow Solid Italic" !important;
+	line-height: 1.2em;
+	
+	color: white !important;
+	
+	font-size: 4.714em;
+	@media (max-width: $screen-xs-max) {
+		font-size: 3.714em;
+	}
+
+	&.purple {
+		@include outline(
+			map-get($colors, 'purple'),
+			2px
+		);
+	}
+
+	&.pink {
+		@include outline(
+			hsl(321, 51%, 46%),
+			// hsl(326, 75%, 57%),
+			2px
+		);
+	}
+}
+
+.polariod {
+	padding: 1em;
+	@include transform(rotate(2deg) scale(0.9));
+	@include transition(.15s linear);
+	@include box-shadow(0 .25em .5em transparentize(black, 0.25));
+	    
+	&:hover {
+		@include transform-none();
+		@include box-shadow(0 .25em .5em transparentize(black, 0.5));
+	}
+
+	img {
+		padding-bottom: 1em;
+	}
+}

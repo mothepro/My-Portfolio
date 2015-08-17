@@ -1,0 +1,34 @@
+@import "variables";
+
+.debate body {
+	background-color: hsl(191, 100%, 16%);
+	
+	// @media screen and (min-width: $screen-tablet-min) {
+		background-image: url('#{$const-url-img}bg/5.png');
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-attachment: fixed;
+		background-size: cover;
+		
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+	// }
+
+	#rest {
+		// margin-top: 3em;
+	}
+	
+	iframe {
+		-ms-overflow-y: hidden;
+		    overflow-y: hidden;
+	    padding: 0 1em !important;
+	}
+}
+
+// keep closed on small devices
+@media (max-width: $screen-sm-max) {
+	iframe.fix {
+		display: none;
+	}
+}

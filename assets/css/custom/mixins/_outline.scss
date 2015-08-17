@@ -1,0 +1,7 @@
+@mixin outline($color, $size: 1px, $blur: 1px) {
+	text-shadow:
+	-1*$size	-1*$size $blur $color,
+	   $size	-1*$size $blur $color,
+	-1*$size	   $size $blur $color,
+	   $size	   $size $blur $color !important;
+}

@@ -1,0 +1,1 @@
+var	isMobile	= (screen.width < 560);

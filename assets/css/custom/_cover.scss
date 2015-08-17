@@ -1,0 +1,48 @@
+// cover pics
+.cover {
+	padding: 3em 0;
+	@media (min-width: $screen-sm-min) {
+		padding: 7em 0;
+	}
+	
+	background: {
+		repeat: no-repeat;
+		position: center center;
+		attachment: fixed;
+		size: cover;
+	}
+	
+	&.blue {	@include gradient-directional(hsl(228, 56%, 19%), hsl(195, 89%, 61%), 140deg); }
+	&.ttu { 	background-image: url(#{$const-url-img}bg/ttu.jpg); }
+	// &.code {	background-image: url(#{$const-url-img}bg/code.png); }
+
+	// &.appr{ 	background-image: url('//appr.co/data/img/bg.png'); }
+}
+
+
+.full.cover {
+	height: auto;
+	padding-top: 1em;
+
+	@media (min-width: $screen-sm-min) { // tablets take full screen
+		height: 100%;
+		padding-top: 7em;
+	}
+}
+
+
+
+
+@each $name, $color in $colors {
+	.overlay-#{$name} {
+		background-color: fade-out($color, 0.35);
+		
+		padding-top: 1em;
+		padding-bottom: 1em;
+		
+		@media (min-width: $screen-sm-min) { // tablets and up
+			padding-top: 3em;
+			padding-bottom: 3em;
+		}
+	}
+}

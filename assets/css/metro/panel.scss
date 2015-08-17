@@ -1,0 +1,37 @@
+.panel {
+    @extend .border;
+    .panel-header {
+        padding: 10px;
+        background-color: $grayLighter;
+        width: 100%;
+        @extend .subheader-secondary;
+        color: $dark;
+        cursor: default;
+    }
+    .panel-content {
+        width: 100%;
+        height: auto;
+        padding: 10px;
+    }
+}
+
+[data-role=panel] {
+    .panel-header {
+        cursor: pointer;
+        &:after {
+            font-family: FontAwesome;
+            content: $fa-var-chevron-circle-down;
+            float: right;
+            color: inherit;
+            // @include rotate(180deg);
+        }
+    }
+
+    &.collapsed {
+        .panel-header {
+            &:after {
+                content: $fa-var-chevron-circle-right;
+            }
+        }
+    }
+}
