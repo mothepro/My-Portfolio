@@ -3,30 +3,30 @@
 <head>
 	<title>Maurice Prosper's Portfolio</title>
 	<meta charset="utf-8">
-	<link rel="shortcut icon" href="/data/img/icon/favicon.ico">
-	<link rel="apple-touch-icon" sizes="57x57" href="/data/img/icon/apple-touch-icon-57x57.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="/data/img/icon/apple-touch-icon-114x114.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="/data/img/icon/apple-touch-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="144x144" href="/data/img/icon/apple-touch-icon-144x144.png">
-	<link rel="apple-touch-icon" sizes="60x60" href="/data/img/icon/apple-touch-icon-60x60.png">
-	<link rel="apple-touch-icon" sizes="120x120" href="/data/img/icon/apple-touch-icon-120x120.png">
-	<link rel="apple-touch-icon" sizes="76x76" href="/data/img/icon/apple-touch-icon-76x76.png">
-	<link rel="apple-touch-icon" sizes="152x152" href="/data/img/icon/apple-touch-icon-152x152.png">
-	<link rel="icon" type="image/png" href="/data/img/icon/favicon-196x196.png" sizes="196x196">
-	<link rel="icon" type="image/png" href="/data/img/icon/favicon-160x160.png" sizes="160x160">
-	<link rel="icon" type="image/png" href="/data/img/icon/favicon-96x96.png" sizes="96x96">
-	<link rel="icon" type="image/png" href="/data/img/icon/favicon-16x16.png" sizes="16x16">
-	<link rel="icon" type="image/png" href="/data/img/icon/favicon-32x32.png" sizes="32x32">
+	<link rel="shortcut icon" href="<?php echo \URL\IMG; ?>icon/favicon.ico">
+	<link rel="apple-touch-icon" sizes="57x57" href="<?php echo \URL\IMG; ?>icon/apple-touch-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="<?php echo \URL\IMG; ?>icon/apple-touch-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="<?php echo \URL\IMG; ?>icon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="<?php echo \URL\IMG; ?>icon/apple-touch-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="<?php echo \URL\IMG; ?>icon/apple-touch-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="<?php echo \URL\IMG; ?>icon/apple-touch-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="<?php echo \URL\IMG; ?>icon/apple-touch-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="<?php echo \URL\IMG; ?>icon/apple-touch-icon-152x152.png">
+	<link rel="icon" type="image/png" href="<?php echo \URL\IMG; ?>icon/favicon-196x196.png" sizes="196x196">
+	<link rel="icon" type="image/png" href="<?php echo \URL\IMG; ?>icon/favicon-160x160.png" sizes="160x160">
+	<link rel="icon" type="image/png" href="<?php echo \URL\IMG; ?>icon/favicon-96x96.png" sizes="96x96">
+	<link rel="icon" type="image/png" href="<?php echo \URL\IMG; ?>icon/favicon-16x16.png" sizes="16x16">
+	<link rel="icon" type="image/png" href="<?php echo \URL\IMG; ?>icon/favicon-32x32.png" sizes="32x32">
 	<meta name="msapplication-TileColor" content="#2d89ef">
-	<meta name="msapplication-TileImage" content="/data/img/icon/mstile-144x144.png">
-	<meta name="msapplication-square70x70logo" content="/data/img/icon/mstile-70x70.png">
-	<meta name="msapplication-square150x150logo" content="/data/img/icon/mstile-150x150.png">
-	<meta name="msapplication-square310x310logo" content="/data/img/icon/mstile-310x310.png">
-	<meta name="msapplication-wide310x150logo" content="/data/img/icon/mstile-310x50.png">
+	<meta name="msapplication-TileImage" content="<?php echo \URL\IMG; ?>icon/mstile-144x144.png">
+	<meta name="msapplication-square70x70logo" content="<?php echo \URL\IMG; ?>icon/mstile-70x70.png">
+	<meta name="msapplication-square150x150logo" content="<?php echo \URL\IMG; ?>icon/mstile-150x150.png">
+	<meta name="msapplication-square310x310logo" content="<?php echo \URL\IMG; ?>icon/mstile-310x310.png">
+	<meta name="msapplication-wide310x150logo" content="<?php echo \URL\IMG; ?>icon/mstile-310x50.png">
 	<meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, maximum-scale=1, user-scalable=0">
 	<meta name="apple-mobile-web-app-capable" content="yes">
 	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-	<link rel="stylesheet" type="text/css" href="/data/css/mo.css">
+	<link rel="stylesheet" type="text/css" href="<?php echo \URL\CSS; ?>mo.css">
 </head>
 <!--
      ___________         ___________
@@ -61,7 +61,7 @@
 		<div class="row" data-view-in-once="animated fadeIn">
 			<div class="col-xs-6 col-xs-offset-3 col-sm-3 col-sm-offset-0 col-sm-push-8 mb2">
 				<div class="polariod">
-				    <img src="/data/img/hero/mo.jpg" alt>
+				    <img src="<?php echo \URL\IMG; ?>hero/mo.jpg" alt>
 				    Ivory Suit (2012)
 				</div>
             </div>
@@ -126,7 +126,7 @@
 				<div class="row mt2">
 					<div class="col-xs-6 col-xs-offset-3 col-sm-4 col-sm-offset-1 mb2" data-view-in="animated fadeInLeft" data-view-out="animated fadeOutLeft">
 						<span style="position:absolute;right:0">&#8482;</span>
-						<img src="/data/img/hero/ibm.png" alt="International Business Machines">
+						<img src="<?php echo \URL\IMG; ?>hero/ibm.png" alt="International Business Machines">
 					</div>
 					<div class="col-xs-12 col-sm-4 col-sm-offset-2" data-view-in="animated fadeInRight" data-view-out="animated fadeOutRight">
 						<p class="large tleft">
@@ -148,7 +148,7 @@
 				<div class="row mt2">
 					<div class="col-xs-6 col-xs-offset-3 col-sm-3 col-sm-offset-2 col-sm-push-6 mb2" data-view-in="animated fadeInRight" data-view-out="animated fadeOutRight">
 						<span style="position:absolute;right:0">&#8482;</span>
-						<img src="/data/img/hero/nasa.png" alt="NASA">
+						<img src="<?php echo \URL\IMG; ?>hero/nasa.png" alt="NASA">
 					</div>
 					<div class="col-xs-12 col-sm-4 col-sm-offset-2 col-sm-pull-6" data-view-in="animated fadeInLeft" data-view-out="animated fadeOutLeft">
 						<p class="large tleft">
@@ -203,11 +203,11 @@
 				<div class="webdev col-sm-4 col-sm-offset-1 p2 bg-lblue" data-view-in-once="animated zoomInLeft">
 
 					<div class="php mb he3 col-black">
-						<img src="/data/img/lang/php.png" class="he3 w3 fleft" alt> 
+						<img src="<?php echo \URL\IMG; ?>lang/php.png" class="he3 w3 fleft" alt> 
 						PHP <small class="hidden-xs"><br>RESTful API (Server)</small>
 					</div>
 					<div class="mem mb he3 col-black">
-						<img src="/data/img/lang/memcached.png" class="he3 w3 fleft" alt> 
+						<img src="<?php echo \URL\IMG; ?>lang/memcached.png" class="he3 w3 fleft" alt> 
 						Memcached &amp; Redis
 					</div>
 					<div class="sql he3 col-black">
@@ -227,7 +227,7 @@
 						CSS3 &amp; SASS
 					</div>
 					<div class="js he3 col-black">
-						<img src="/data/img/lang/javascript.png" class="he3 w3 fleft" alt> 
+						<img src="<?php echo \URL\IMG; ?>lang/javascript.png" class="he3 w3 fleft" alt> 
 						Javascript &amp; jQuery <small class="hidden-xs"><br>RESTful API (Client)</small>
 					</div>
 					
@@ -238,11 +238,11 @@
 				<div class="app col-sm-4 col-sm-offset-1 p2 bg-lred" data-view-in-once="animated zoomInLeft">
 
 					<div class="cpp mb he3 col-black">
-						<img src="/data/img/lang/cpp.png" class="he3 w3 fleft" alt> 
+						<img src="<?php echo \URL\IMG; ?>lang/cpp.png" class="he3 w3 fleft" alt> 
 						C++
 					</div>
 					<div class="java mb he3 col-black">
-						<img src="/data/img/lang/java.png" class="he3 w3 fleft" alt> 
+						<img src="<?php echo \URL\IMG; ?>lang/java.png" class="he3 w3 fleft" alt> 
 						Java
 					</div>
 					<div class="android he3 col-black">
@@ -262,7 +262,7 @@
 						Unix &amp; Linux shell
 					</div>
 					<a class="gml block he3 col-black" href="//en.wikipedia.org/wiki/GameMaker:_Studio#Scripting">
-						<img src="/data/img/lang/gml.png" class="he3 w3 fleft" alt> 
+						<img src="<?php echo \URL\IMG; ?>lang/gml.png" class="he3 w3 fleft" alt> 
 						Game Maker Language
 					</a>
 					
@@ -292,7 +292,7 @@
 					</p>
 					<a href="//angel.co/appr" class="btn large bg-blue bg-dblue-hover col-white"><i class="fa fa-angellist"></i> AngelList</a>
 				</div>
-				<img src="/data/img/proj/appr.png" data-view-in-once="animated zoomInRight" alt class="col-xs-12 col-sm-6 col-sm-offset-1">
+				<img src="<?php echo \URL\IMG; ?>proj/appr.png" data-view-in-once="animated zoomInRight" alt class="col-xs-12 col-sm-6 col-sm-offset-1">
 			</div>
 
 			<div class="curateking row mb5">
@@ -303,7 +303,7 @@
 						A compact, dynamic speed reading application. Reading is inherently time consuming because your eyes have to move from word to word and line to line. Now content is streamed by tokens which the human eye is able to comprehend rather quickly. 
 					</p>
 				</div>
-				<img class="col-xs-12 col-sm-6 col-sm-pull-5" data-view-in-once="animated zoomInLeft" alt src="/data/img/proj/foci.png">
+				<img class="col-xs-12 col-sm-6 col-sm-pull-5" data-view-in-once="animated zoomInLeft" alt src="<?php echo \URL\IMG; ?>proj/foci.png">
 			</div>
 
 			<div class="parkshade row mb5">
@@ -315,7 +315,7 @@
 						Both sides of the argument are show at the same time, to make opinions have a more equal light.
 					</p>
 				</div>
-				<img src="/data/img/proj/parkshade.png" data-view-in-once="animated zoomInRight" alt class="col-xs-12 col-sm-6 col-sm-offset-1">
+				<img src="<?php echo \URL\IMG; ?>proj/parkshade.png" data-view-in-once="animated zoomInRight" alt class="col-xs-12 col-sm-6 col-sm-offset-1">
 			</div>
 
 			<div class="curateking row mb5">
@@ -326,7 +326,7 @@
 						A content sharing application for professional social media accounts. CurateKing curates trending content, includes hashtags to the post, and even schedules the posts for the future to be shared later.
 					</p>
 				</div>
-				<img class="col-xs-12 col-sm-6 col-sm-pull-5" data-view-in-once="animated zoomInLeft" alt src="/data/img/proj/curateking.png">
+				<img class="col-xs-12 col-sm-6 col-sm-pull-5" data-view-in-once="animated zoomInLeft" alt src="<?php echo \URL\IMG; ?>proj/curateking.png">
 			</div>
 
 			<div class="beonit row mb5">
@@ -337,7 +337,7 @@
 						A really simple website generator. Data is stored in a flat file system. I developed this so I may create basic sites for small businesses in my local area.
 					</p>
 				</div>
-				<img src="/data/img/proj/beonitmedia.png" data-view-in-once="animated zoomInRight" alt class="col-xs-12 col-sm-6 col-sm-offset-1">
+				<img src="<?php echo \URL\IMG; ?>proj/beonitmedia.png" data-view-in-once="animated zoomInRight" alt class="col-xs-12 col-sm-6 col-sm-offset-1">
 			</div>
 
 			<div class="flowarcade row mb5">
@@ -348,7 +348,7 @@
 						My first dynamic website. Developed to host games which I made and found very fun. Community grew to around 300 members at its peak. Made money through the ads on the side.
 					</p>
 				</div>
-				<img class="col-xs-12 col-sm-6 col-sm-pull-5" data-view-in-once="animated zoomInLeft" alt src="/data/img/proj/flow-arcade.png">
+				<img class="col-xs-12 col-sm-6 col-sm-pull-5" data-view-in-once="animated zoomInLeft" alt src="<?php echo \URL\IMG; ?>proj/flow-arcade.png">
 			</div>
 		</div>
 
@@ -365,7 +365,7 @@
 					</p>
 					<a href="//s1.parkshade.com/Mo-Brain.exe" class="btn large bg-blue bg-dblue-hover col-white"><i class="fa fa-download"></i> Download</a>
 				</div>
-				<img class="col-xs-12 col-sm-6 col-sm-offset-1" data-view-in-once="animated zoomInLeft" alt src="/data/img/proj/mo-brain.png">
+				<img class="col-xs-12 col-sm-6 col-sm-offset-1" data-view-in-once="animated zoomInLeft" alt src="<?php echo \URL\IMG; ?>proj/mo-brain.png">
 			</div>
 
 			<div class="gravit row">
@@ -378,7 +378,7 @@
 					</p>
 					<a href="//s1.parkshade.com/Gravity.exe" class="btn large bg-blue bg-dblue-hover col-white"><i class="fa fa-download"></i> Download</a>
 				</div>
-				<img class="col-xs-12 col-sm-6 col-sm-pull-5" data-view-in-once="animated zoomInRight" alt src="/data/img/proj/gravity.png">
+				<img class="col-xs-12 col-sm-6 col-sm-pull-5" data-view-in-once="animated zoomInRight" alt src="<?php echo \URL\IMG; ?>proj/gravity.png">
 			</div>
 		</div>
 
@@ -395,7 +395,7 @@
 					</p>
 					<a href="//s1.parkshade.com/Mo-Universe.exe" class="btn large bg-blue bg-dblue-hover col-white"><i class="fa fa-download"></i> Download</a>
 				</div>
-				<img class="col-xs-12 col-sm-6 col-sm-pull-5" data-view-in-once="animated zoomInLeft" alt src="/data/img/proj/mo-universe.png">
+				<img class="col-xs-12 col-sm-6 col-sm-pull-5" data-view-in-once="animated zoomInLeft" alt src="<?php echo \URL\IMG; ?>proj/mo-universe.png">
 			</div>
 
 			<div class="warp row mb5">
@@ -409,7 +409,7 @@
 					</p>
 					<a href="//s1.parkshade.com/WarpWorld.zip" class="btn large bg-blue bg-dblue-hover col-white"><i class="fa fa-download"></i> Download</a>
 				</div>
-				<img class="col-xs-12 col-sm-6 col-sm-offset-1" data-view-in-once="animated zoomInRight" alt src="/data/img/proj/warp-world.png">
+				<img class="col-xs-12 col-sm-6 col-sm-offset-1" data-view-in-once="animated zoomInRight" alt src="<?php echo \URL\IMG; ?>proj/warp-world.png">
 			</div>
 
 			<div class="nova row">
@@ -424,7 +424,7 @@
 					</p>
 					<a href="//s1.parkshade.com/NovaBlaster.zip" class="btn large bg-blue bg-dblue-hover col-white"><i class="fa fa-download"></i> Download</a>
 				</div>
-				<img class="col-xs-12 col-sm-6 col-sm-pull-5" data-view-in-once="animated zoomInLeft" alt src="/data/img/proj/nova-blaster.png">
+				<img class="col-xs-12 col-sm-6 col-sm-pull-5" data-view-in-once="animated zoomInLeft" alt src="<?php echo \URL\IMG; ?>proj/nova-blaster.png">
 			</div>
 		</div>
 	</div>
@@ -457,11 +457,13 @@
 		<i class="fa fa-smile-o col-green"></i>
 	</div>
 	<script defer type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-	<script defer type="text/javascript" src="/data/js/mo.js"></script>
- 	<script>
-//	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-//	ga('create', 'UA-48191613-2', 'auto');
-//	ga('send', 'pageview');
-	</script>
+	<script defer type="text/javascript" src="<?php echo \URL\JS; ?>mo.js"></script>
+	<?php if(defined('ANALYTICS') && \ANALYTICS): // production ?>
+ 		<script>
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+			ga('create', 'UA-48191613-2', 'auto');
+			ga('send', 'pageview');
+		</script>
+	<?php endif; ?>
 </body>
 </html>

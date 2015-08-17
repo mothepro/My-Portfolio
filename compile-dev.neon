@@ -47,10 +47,13 @@ hooks:
 		post:
 			# Remove auto generated files
 			local:
+				- del tmp.php
 				- del www\index.html
 				- rmdir www\
 
+constantOutput: tmp.php
 constants:
+	analytics: no
 	+url:
 		css:	/data/css/
 		js:		/data/js/

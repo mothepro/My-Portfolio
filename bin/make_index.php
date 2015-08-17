@@ -38,6 +38,7 @@ try {
 	
 	ob_start();
 	
+	require 'tmp.php';
 	require $opt['i'];
 	
 	/**
