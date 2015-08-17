@@ -1,0 +1,13 @@
+{
+    "name": "mothepro/portfolio",
+    "description": "My Portfolio.",
+    "authors": [
+        {
+            "name": "Maurice Prosper",
+            "email": "maurice.prosper@ttu.edu"
+        }
+    ],
+    "require-dev": {
+		"mothepro/mo-compiler": "dev-master"
+	}
+}
