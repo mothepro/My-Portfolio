@@ -1,0 +1,61 @@
+##########################
+# Compiler Configuration #
+##########################
+
+# hostname
+host:	parkshade.com
+
+# PPK to use
+ppk:	C:\Users\Mo\.ssh\tower.ppk
+
+compress: yes
+verbose: 3
+
+# Remote Project Dir
+project:
+	remote:	/web/mo
+
+	# Local folder's or files to copy
+	files:
+		- www
+
+
+# Local static content locations
+upload:
+	sass:
+		- assets/css
+	js:
+		- assets/js
+	img:
+		- assets/img
+
+	font: assets/font
+
+# Where to save new static content
+download:
+	sass:	s1.parkshade.com/mo/css
+	js:		s1.parkshade.com/mo/js
+	font:	s1.parkshade.com/mo/font
+	img:	i1.parkshade.com/mo
+
+# Hooks for more binaries!
+hooks:
+	Uploading Project:
+		pre:
+			local:
+				- php bin\make_index.php -i index.php -o www\index.html
+		post:
+			# Remove auto generated files
+			local:
+				- del tmp.php
+				- del www\index.html
+				- rmdir www\
+
+constantOutput: tmp.php
+constants:
+	analytics: yes
+	+url:
+		css:	https://d3klqoxkp2yk4j.cloudfront.net/mo/css/
+		js:		https://d3klqoxkp2yk4j.cloudfront.net/mo/js/
+		img:	https://d36hxw7jlqf0i5.cloudfront.net/mo/
+		font:	https://d3klqoxkp2yk4j.cloudfront.net/mo/font/
