@@ -26,6 +26,7 @@
 	<meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, maximum-scale=1, user-scalable=0">
 	<meta name="apple-mobile-web-app-capable" content="yes">
 	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="<?php echo \URL\CSS; ?>mo.css">
 </head>
 <!--
@@ -98,25 +99,6 @@
 	<div class="experience cover pb0" id="exp">
 		<div class="container bigger">
 			<h2 class="h1"><a href="#exp" class="namer col-gray fa fa-cog fa-spin"></a> Experience</h2>
-
-			<div class="ibm mt1 mb1 pt2 pb2">
-				<div data-view-in="animated fadeIn" data-view-out="animated fadeOut">
-					<h3>GruupMeet Software Contractor</h3>
-					<time>January 2015 &mdash; Present</time>
-				</div>
-				<div class="row mt2">
-					<img src="https://gruupmeet.com/wp-content/uploads/2014/11/logo%20refreshed%20site.png" alt="GruupMeet" class="col-xs-6 col-xs-offset-3 col-sm-3 col-sm-offset-2 col-sm-push-6 mb2" data-view-in="animated fadeInRight" data-view-out="animated fadeOutRight">
-					<div class="col-xs-12 col-sm-4 col-sm-offset-2 col-sm-pull-6" data-view-in="animated fadeInLeft" data-view-out="animated fadeOutLeft">
-						<p class="large tleft">
-							Remotely maintained web application modules, and backend tasks that interact with databases across the entire division.
-							Made use of Agile Development practices, RESTful services, <a href="//en.wikipedia.org/wiki/XML">XML</a>, <a href="//dojotoolkit.org/">Dojo</a>, <a href="//www-01.ibm.com/software/data/db2/">DB2</a>, <a href="//en.wikipedia.org/wiki/Java_Platform,_Enterprise_Edition">J2EE</a> &amp; <a href="//en.wikipedia.org/wiki/JavaServer_Pages">JSP</a>.
-						</p>
-						<a href="//www.linkedin.com/jobs2/view/5766780">Learn more about this position</a>.
-					</div>
-				</div>
-			</div>
-			
-			<hr>
 
 			<div class="ibm mt1 mb1 pt2 pb2">
 				<div data-view-in="animated fadeIn" data-view-out="animated fadeOut">
@@ -457,7 +439,7 @@
 		<i class="fa fa-smile-o col-green"></i>
 	</div>
 	<script defer type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-	<script defer type="text/javascript" src="<?php echo \URL\JS; ?>mo.js"></script>
+	<script defer type="text/javascript" src="<?php echo \URL\JS; ?>mo-portfolio.js"></script>
 	<?php if(defined('ANALYTICS') && \ANALYTICS): // production ?>
  		<script>
 			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');

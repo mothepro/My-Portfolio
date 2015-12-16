@@ -62,7 +62,7 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-shell');
     grunt.config('shell', {
         html: {
-            command: 'php -d auto_prepend_file="<%= assets.root %>constants.php" assets\\index.php > <%= assets.root %>index.html'
+            command: 'php -d auto_prepend_file="<%= assets.root %>constants.php" index.php > <%= assets.root %>index.html'
         },
     });
 
@@ -276,10 +276,24 @@ module.exports = function(grunt) {
     // HTML min
     grunt.loadNpmTasks('grunt-contrib-htmlmin');
     grunt.config('htmlmin', {
+        options: {
+            removeComments: true,
+            collapseWhitespace: true,
+            collapseBooleanAttributes: true,
+            removeAttributeQuotes: true,
+            removeRedundantAttributes: true,
+            useShortDoctype: true,
+            removeScriptTypeAttributes: true,
+            removeStyleLinkTypeAttributes: true,
+            quoteCharacter: true,
+
+            minifyJS: true,
+            minifyCSS: true,
+            minifyURLs: true,
+        },
         live: {
-            files: {
-                '<%= assets.html %>index.html': '<%= assets.root %>index.html',
-            }
+            src: '<%= assets.root %>index.html',
+            dest: '<%= assets.html %>index.html',
         }
     });
 
