@@ -1,5 +1,7 @@
-/nbproject/
-/vendor/
-/.sass-cache/
-composer.lock
+nbproject/
+.sass-cache/
 .gitattributes
+.idea/
+node_modules/
+Thumbs.db
+private.json
