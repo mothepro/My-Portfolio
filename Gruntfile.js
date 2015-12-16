@@ -23,6 +23,9 @@ module.exports = function(grunt) {
         html: 'build\\html\\',
         static: 'build\\static\\',
     });
+    grunt.config('unixAssets', grunt.util.recurse(grunt.config('assets'), function(v) {
+        return v.replace(/\\/g, '/');
+    }));
 
     // Clean Generated Files & Scripts
     grunt.loadNpmTasks('grunt-contrib-clean');
@@ -72,18 +75,29 @@ module.exports = function(grunt) {
         serverdev: secret.servers.dev,
     });
     grunt.config('sftp', {
-        dev: {
-            options: {
-                config: 'serverdev',
-                createDirectories: true,
-                directoryPermissions: parseInt(755, 8),
-            },
-
+        options: {
+            config: 'serverdev',
+            createDirectories: true,
+            directoryPermissions: parseInt(755, 8),
+        },
+        html: {
             files: {
-                './': [
-                    '<%= assets.root %>**',
-                ],
+                './': ['<%= assets.root %>**'],
             }
+        },
+    });
+
+    grunt.config('sshexec', {
+        options: {
+            config: 'serverdev',
+        },
+        html: {
+            command: [
+                'mv <%= secret.servers.dev.path %><%= unixAssets.html %>* <%= secret.servers.dev.path %>',
+                'rmdir <%= secret.servers.dev.path %><%= unixAssets.html %>',
+                'rm <%= secret.servers.dev.path %><%= unixAssets.root %>*.{php,html}',
+                'mv <%= secret.servers.dev.path %><%= unixAssets.root %> <%= secret.servers.dev.path %>assets/',
+            ]
         },
     });
 
@@ -158,6 +172,14 @@ module.exports = function(grunt) {
                 src: ['**'],
                 dest: '<%= assets.font %>',
             }, {
+                expand: true,
+                cwd: 'assets/static/',
+                src: ['**'],
+                dest: '<%= assets.static %>',
+            }]
+        },
+        htmlSymLink: {
+            files: [{
                 src: '<%= assets.root %>index.html',
                 dest: '<%= assets.html %>index.html'
             }]
@@ -290,7 +312,7 @@ module.exports = function(grunt) {
     });
 
     // tasks
-    grunt.registerTask('dev', ['clean', 'concurrent:devMake', 'shell', 'sftp:dev', 'clean']);
-    grunt.registerTask('live', ['clean', 'concurrent:liveMake', 'shell', 'htmlmin', 's3', 'clean']);
+    grunt.registerTask('dev',   ['clean',    'concurrent:devMake',  'shell', 'copy:htmlSymLink',    'sftp', 'sshexec',  'clean']);
+    grunt.registerTask('live',  ['clean',    'concurrent:liveMake', 'shell', 'htmlmin',             's3',               'clean']);
     grunt.registerTask('default', ['dev']);
 };
