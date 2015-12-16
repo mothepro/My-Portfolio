@@ -1,30 +1,10 @@
-//////////////////
-// Font Awesome //
-//////////////////
-
-$fa-font-path: $const-url-font; // str-slice($const-url-font, 1, -2); // trim trailing /
-
-@import "font-awesome/variables";
-@import "font-awesome/mixins";
-@import "font-awesome/path";
-@import "font-awesome/core";
-@import "font-awesome/larger";
-@import "font-awesome/fixed-width";
-@import "font-awesome/list";
-@import "font-awesome/bordered-pulled";
-@import "font-awesome/spinning";
-@import "font-awesome/rotated-flipped";
-@import "font-awesome/stacked";
-@import "font-awesome/icons";
-
 ///////////////////
 // Stylish Fonts //
 ///////////////////
 
-@import "geometria";
 @font-face {
 	font-family: Harlow Solid Italic;
-	src: url(#{$const-url-font}HarlowSolidItalic.ttf);
+	src: font-url('HarlowSolidItalic.ttf');
 }
 
 @font-face {
@@ -32,8 +12,8 @@ $fa-font-path: $const-url-font; // str-slice($const-url-font, 1, -2); // trim tr
 	font-style: normal;
 	font-weight: 400;
 	src: local('Fjalla One'),
-		local('FjallaOne-Regular'),
-		url(http://themes.googleusercontent.com/static/fonts/fjallaone/v1/rxxXUYj4oZ6Q5oDJFtEd6hsxEYwM7FgeyaSgU71cLG0.woff) format('woff');
+	local('FjallaOne-Regular'),
+	url(http://themes.googleusercontent.com/static/fonts/fjallaone/v1/rxxXUYj4oZ6Q5oDJFtEd6hsxEYwM7FgeyaSgU71cLG0.woff) format('woff');
 }
 
 /////////////////
@@ -42,68 +22,5 @@ $fa-font-path: $const-url-font; // str-slice($const-url-font, 1, -2); // trim tr
 
 @font-face {
 	font-family: Sansation Light;
-	src: url(#{$const-url-font}SansationLight.woff);
+	src: font-url('SansationLight.woff');
 }
-
-/** /
-@font-face {
-	font-family: 'Museo';
-	src: url(#{$const-url-font}/Museo300-Regular-webfont.eot);
-	src: url(#{$const-url-font}/Museo300-Regular-webfont.woff) format("woff"),
-		url(#{$const-url-font}/Museo300-Regular-webfont.eot?#iefix) format("embedded-opentype"),
-		url(#{$const-url-font}/Museo300-Regular-webfont.ttf) format("truetype"),
-		url(#{$const-url-font}/Museo300-Regular-webfont.svg#Museo300Regular) format("svg");
-	font-weight: 300;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: 'Museo';
-	src: url(#{$const-url-font}/Museo500-Regular-webfont.eot);
-	src: url(#{$const-url-font}/Museo500-Regular-webfont.woff) format("woff"),
-		url(#{$const-url-font}/Museo500-Regular-webfont.eot?#iefix) format("embedded-opentype"),
-		url(#{$const-url-font}/Museo500-Regular-webfont.ttf) format("truetype"),
-		url(#{$const-url-font}/Museo500-Regular-webfont.svg#Museo500Regular) format("svg");
-	font-weight: 500;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: 'Museo-Cyrillic';
-	src: url(#{$const-url-font}/MuseoCyrl500-Regular-webfont.eot);
-	src: url(#{$const-url-font}/MuseoCyrl500-Regular-webfont.woff) format("woff"),
-		url(#{$const-url-font}/MuseoCyrl500-Regular-webfont.eot?#iefix) format("embedded-opentype"),
-		url(#{$const-url-font}/MuseoCyrl500-Regular-webfont.ttf) format("truetype");
-	font-weight: 500;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: 'Open Sans';
-	font-style: normal;
-	font-weight: 700;
-	src: local("Open Sans Bold"),
-		local("OpenSans-Bold"),
-		url(#{$const-url-font}/OpenSans-Bold.woff) format("woff");
-}
-/***/
-
-/** /
-@font-face {
-	font-family: 'Open Sans';
-	font-style: normal;
-	font-weight: 600;
-	src: local("Open Sans Semibold"),
-		local("OpenSans-Semibold"),
-		url(#{$const-url-font}/OpenSans-Semibold.woff) format("woff");
-}
-
-@font-face {
-	font-family: 'Open Sans';
-	font-style: normal;
-	font-weight: 400;
-	src: local("Open Sans"),
-		local("OpenSans"),
-		url(#{$const-url-font}/OpenSans.woff) format("woff");
-}
-/***/
