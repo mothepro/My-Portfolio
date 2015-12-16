@@ -1,0 +1,28 @@
+{
+  "name": "Mo-Portfolio",
+  "version": "0.0.1",
+  "description": "My online representation of myself and accomplisments",
+  "main": "index.php",
+  "repository": {
+    "type": "git"
+  },
+  "author": "Maurice Prosper",
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-aws": "^0.6.1",
+    "grunt-concurrent": "^2.1.0",
+    "grunt-contrib-clean": "^0.7.0",
+    "grunt-contrib-compass": "^1.0.4",
+    "grunt-contrib-compress": "^0.14.0",
+    "grunt-contrib-concat": "^0.5.1",
+    "grunt-contrib-copy": "^0.8.2",
+    "grunt-contrib-htmlmin": "^0.6.0",
+    "grunt-contrib-imagemin": "^1.0.0",
+    "grunt-contrib-uglify": "^0.11.0",
+    "grunt-php-config": "^0.1.4",
+    "grunt-shell": "^1.1.2",
+    "grunt-ssh": "^0.12.8",
+    "grunt-timer": "^0.6.0"
+  }
+}

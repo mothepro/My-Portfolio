@@ -1,0 +1,26 @@
+---
+dev:
+  build: # Timestamp for build
+    value: time()
+    raw: true
+
+  analytics: false
+
+  url: # Public URLs
+    img:	/data/img/
+    css:	/data/css/
+    js:	/data/js/
+    font:	/data/font/
+
+live:
+  build: # Timestamp for build
+    value: time()
+    raw: true
+
+  analytics: true
+
+  url: # Public URLs
+    css:	https://d1qduluop619v9.cloudfront.net/mo/css/
+    js:	https://d1qduluop619v9.cloudfront.net/mo/js/
+    img:	https://d1qduluop619v9.cloudfront.net/mo/
+    font:	https://d1qduluop619v9.cloudfront.net/mo/font/
