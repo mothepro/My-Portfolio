@@ -108,10 +108,10 @@ module.exports = function(grunt) {
                 environment: 'production',
 
                 // On Server
-                httpGeneratedImagesPath: '<%= constants.dev.url.img %>',
-                httpImagesPath: '<%= constants.dev.url.img %>',
-                httpFontsPath: '<%= constants.dev.url.font %>',
-                httpJavascriptsPath: '<%= constants.dev.url.js %>',
+                httpGeneratedImagesPath: '<%= constants.live.url.img %>',
+                httpImagesPath: '<%= constants.live.url.img %>',
+                httpFontsPath: '<%= constants.live.url.font %>',
+                httpJavascriptsPath: '<%= constants.live.url.js %>',
             }
         },
         dev: {
@@ -120,10 +120,10 @@ module.exports = function(grunt) {
                 environment: 'development',
 
                 // On Server
-                httpGeneratedImagesPath: '<%= constants.live.url.img %>',
-                httpImagesPath: '<%= constants.live.url.img %>',
-                httpFontsPath: '<%= constants.live.url.font %>',
-                httpJavascriptsPath: '<%= constants.live.url.js %>',
+                httpGeneratedImagesPath: '<%= constants.dev.url.img %>',
+                httpImagesPath: '<%= constants.dev.url.img %>',
+                httpFontsPath: '<%= constants.dev.url.font %>',
+                httpJavascriptsPath: '<%= constants.dev.url.js %>',
             }
         }
     });
@@ -203,23 +203,6 @@ module.exports = function(grunt) {
             }]
         }
     });
-
-    // File Compresser
-    //grunt.loadNpmTasks('grunt-contrib-compress');
-    //grunt.config('compress', {
-    //    production: {
-    //        options: {
-    //            mode: 'gzip'
-    //        },
-    //        expand: true,
-    //        cwd: '<%= assets.root %>',
-    //        src: ['**'],
-    //        dest: '<%= build.tmp %>',
-    //        ext: function(ext) { // append gz
-    //            return ext + '.gz';
-    //        }
-    //    }
-    //});
 
     // Amazon S3
     grunt.loadNpmTasks('grunt-aws');
