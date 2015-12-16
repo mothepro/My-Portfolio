@@ -9,8 +9,9 @@ dev:
   url: # Public URLs
     img:	/data/img/
     css:	/data/css/
-    js:	/data/js/
+    js:	    /data/js/
     font:	/data/font/
+    static:	/data/static/
 
 live:
   build: # Timestamp for build
@@ -20,7 +21,8 @@ live:
   analytics: true
 
   url: # Public URLs
-    css:	https://d1qduluop619v9.cloudfront.net/mo/css/
-    js:	https://d1qduluop619v9.cloudfront.net/mo/js/
-    img:	https://d1qduluop619v9.cloudfront.net/mo/
-    font:	https://d1qduluop619v9.cloudfront.net/mo/font/
+    css:	https://d1qduluop619v9.cloudfront.net/css/
+    js:	    https://d1qduluop619v9.cloudfront.net/js/
+    img:	https://d1qduluop619v9.cloudfront.net/img/
+    font:	https://d1qduluop619v9.cloudfront.net/font/
+    static:	https://d1qduluop619v9.cloudfront.net/static/
