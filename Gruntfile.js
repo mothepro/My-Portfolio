@@ -92,7 +92,6 @@ module.exports = function(grunt) {
     grunt.config('compass', {
         options: {
             relativeAssets: false,
-            sourcemap: true,
 
             // On Local Machine
             sassDir: 'assets\\css',
@@ -106,6 +105,8 @@ module.exports = function(grunt) {
             options: {
                 outputStyle: 'compressed',
                 environment: 'production',
+                sourcemap: false,
+                assetCacheBuster: false,
 
                 // On Server
                 httpGeneratedImagesPath: '<%= constants.live.url.img %>',
@@ -118,6 +119,7 @@ module.exports = function(grunt) {
             options: {
                 outputStyle: 'expanded',
                 environment: 'development',
+                sourcemap: true,
 
                 // On Server
                 httpGeneratedImagesPath: '<%= constants.dev.url.img %>',
@@ -283,8 +285,8 @@ module.exports = function(grunt) {
     // Parallel Tasks
     grunt.loadNpmTasks('grunt-concurrent');
     grunt.config('concurrent', {
-        devMake: ['compass:dev', 'uglify:dev', 'php_config:dev', 'copy:devSymLink'],
-        liveMake: ['imagemin', 'compass:live', 'uglify:live', 'php_config:live', 'copy:liveSymLink'],
+        devMake:  ['compass:dev',   'uglify:dev',   'php_config:dev',   'copy:devSymLink'],
+        liveMake: ['compass:live',  'uglify:live',  'php_config:live',  'copy:liveSymLink', 'imagemin'],
     });
 
     // tasks
