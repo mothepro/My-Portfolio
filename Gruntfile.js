@@ -86,7 +86,6 @@ module.exports = function(grunt) {
             }
         },
     });
-
     grunt.config('sshexec', {
         options: {
             config: 'serverdev',
@@ -95,7 +94,7 @@ module.exports = function(grunt) {
             command: [
                 'mv <%= secret.servers.dev.path %><%= unixAssets.html %>* <%= secret.servers.dev.path %>',
                 'rmdir <%= secret.servers.dev.path %><%= unixAssets.html %>',
-                'rm <%= secret.servers.dev.path %><%= unixAssets.root %>*.{php,html}',
+                'rm <%= secret.servers.dev.path %><%= unixAssets.root %>*.{php,html} <%= secret.servers.dev.path %>assets/ -r',
                 'mv <%= secret.servers.dev.path %><%= unixAssets.root %> <%= secret.servers.dev.path %>assets/',
             ]
         },
