@@ -13,10 +13,8 @@
 	}
 	
 	&.blue {	@include gradient-directional(hsl(228, 56%, 19%), hsl(195, 89%, 61%), 140deg); }
-	&.ttu { 	background-image: url(#{$const-url-img}bg/ttu.jpg); }
-	// &.code {	background-image: url(#{$const-url-img}bg/code.png); }
-
-	// &.appr{ 	background-image: url('//appr.co/data/img/bg.png'); }
+	&.ttu { 	background-image: image-url('bg/ttu.jpg'); }
+	// &.code {	background-image: image-url('bg/code.png'); }
 }
 
 

@@ -1,0 +1,21 @@
+// Custom Normalizing - Standards [No Quirks]
+// ==========================================================================
+body {
+  font-family: "Sansation Light", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+br + br {
+  clear: both;
+}
+
+:last-child {
+  margin-bottom: 0;
+}
+
+:target {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+}
