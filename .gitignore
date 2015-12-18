@@ -4,4 +4,5 @@ nbproject/
 .idea/
 node_modules/
 Thumbs.db
+/assets/static/MauriceProsper-Resume.pdf
 private.json
