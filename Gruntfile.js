@@ -238,6 +238,7 @@ module.exports = function(grunt) {
             overwrite: true,
             sslEnabled: true,
             maxRetries: 3,
+            cache: !!grunt.option('cache'),
         },
         live: {
             options: {
