@@ -21,7 +21,7 @@ body {
 	
 	border: 2px solid $col;
 	color: $col;
-	&:hover {
+	&:hover, &:focus {
 		background-color: $col;
 		color: invert($col);
 	}
