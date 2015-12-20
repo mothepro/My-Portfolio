@@ -11,7 +11,7 @@ dev:
     css:	/data/css/
     js:	    /data/js/
     font:	/data/font/
-    static:	/data/static/
+    stat:	/data/static/
 
 live:
   build: # Timestamp for build
@@ -25,4 +25,4 @@ live:
     js:	    https://d1qduluop619v9.cloudfront.net/js/
     img:	https://d1qduluop619v9.cloudfront.net/img/
     font:	https://d1qduluop619v9.cloudfront.net/font/
-    static:	https://d1qduluop619v9.cloudfront.net/static/
+    stat:	https://d1qduluop619v9.cloudfront.net/static/

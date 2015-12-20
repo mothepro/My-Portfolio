@@ -46,7 +46,7 @@
 			<h2 class="clean slogan mb2">Full Stack Web Developer</h2>
 			<div class="row large">
 				<div class="col-sm-4">
-					<a href="//s1.parkshade.com/MauriceProsper-Resume.pdf" class="hero">Download Resume<br><br><i class="fa fa-fw fa-2x fa-file-pdf-o"></i></a>
+					<a href="<?php echo \URL\STAT; ?>MauriceProsper-Resume.pdf" class="hero">Download Resume<br><br><i class="fa fa-fw fa-2x fa-file-pdf-o"></i></a>
 				</div>
 				<div class="col-sm-4 hidden-xs">
 					<a href="#more" class="hero">Learn More About Me<br><br><i class="fa fa-fw fa-2x fa-child"></i></a>
@@ -346,20 +346,20 @@
 						This is a simple <a href="//en.wikipedia.org/wiki/Brainfuck">BrainF*ck</a> (an esoteric programming language) Interpreter and Debugger which uses a visual TuringTape.<br>
 						Built off the conceptual foundation of a Turing Machine.<br><br>
 					</p>
-					<a href="//s1.parkshade.com/Mo-Brain.exe" class="btn large bg-blue bg-dblue-hover col-white"><i class="fa fa-download"></i> Download</a>
+					<a href="<?php echo \URL\STAT; ?>Mo-Brain.exe" class="btn large bg-blue bg-dblue-hover col-white"><i class="fa fa-download"></i> Download</a>
 				</div>
 				<img class="col-xs-12 col-sm-6 col-sm-offset-1" data-view-in-once="animated zoomInLeft" alt src="<?php echo \URL\IMG; ?>proj/mo-brain.png">
 			</div>
 
 			<div class="gravit row">
 				<div class="col-sm-4 col-sm-offset-1 col-sm-push-6" data-view-in-once="animated zoomInLeft">
-					<h3 class="h2"><a href="//github.com/mothepro/Mo-Brain" target="_blank">Particle Simulator</a></h3>
+					<h3 class="h2"><a href="<?php echo \URL\STAT; ?>Gravity.exe" target="_blank">Particle Simulator</a></h3>
 					<time>2012</time>
 					<p class="mt2 large tleft">
 						A basic gravity simulator which acts on all onscreen particles.<br>
 						While debugging all forces are shown towards each particle separately.<br><br>
 					</p>
-					<a href="//s1.parkshade.com/Gravity.exe" class="btn large bg-blue bg-dblue-hover col-white"><i class="fa fa-download"></i> Download</a>
+					<a href="<?php echo \URL\STAT; ?>Gravity.exe" class="btn large bg-blue bg-dblue-hover col-white"><i class="fa fa-download"></i> Download</a>
 				</div>
 				<img class="col-xs-12 col-sm-6 col-sm-pull-5" data-view-in-once="animated zoomInRight" alt src="<?php echo \URL\IMG; ?>proj/gravity.png">
 			</div>
@@ -370,13 +370,13 @@
 
 			<div class="universe row mb5">
 				<div class="col-sm-4 col-sm-offset-1 col-sm-push-6" data-view-in-once="animated zoomInRight">
-					<h3 class="h2"><a href="//s1.parkshade.com/Mo-Universe.exe" target="_blank"><i class="fa fa-download"></i> Mo's Universe</a></h3>
+					<h3 class="h2"><a href="<?php echo \URL\STAT; ?>Mo-Universe.exe" target="_blank"><i class="fa fa-download"></i> Mo's Universe</a></h3>
 					<time>September 2011</time>
 					<p class="mt2 large tleft">
 						Graphical simulation of the 2 weakest fundamental forces, gravity and magnetism.<br>
 						Able to easily create and modify the universe to what ever settings you prefer, you get complete control!
 					</p>
-					<a href="//s1.parkshade.com/Mo-Universe.exe" class="btn large bg-blue bg-dblue-hover col-white"><i class="fa fa-download"></i> Download</a>
+					<a href="<?php echo \URL\STAT; ?>Mo-Universe.exe" class="btn large bg-blue bg-dblue-hover col-white"><i class="fa fa-download"></i> Download</a>
 				</div>
 				<img class="col-xs-12 col-sm-6 col-sm-pull-5" data-view-in-once="animated zoomInLeft" alt src="<?php echo \URL\IMG; ?>proj/mo-universe.png">
 			</div>
@@ -390,14 +390,14 @@
 						Move from one side of the world to another in an instant!<br>
 						<i>Online Functionalities are inactive.</i>
 					</p>
-					<a href="//s1.parkshade.com/WarpWorld.zip" class="btn large bg-blue bg-dblue-hover col-white"><i class="fa fa-download"></i> Download</a>
+					<a href="<?php echo \URL\STAT; ?>WarpWorld.zip" class="btn large bg-blue bg-dblue-hover col-white"><i class="fa fa-download"></i> Download</a>
 				</div>
 				<img class="col-xs-12 col-sm-6 col-sm-offset-1" data-view-in-once="animated zoomInRight" alt src="<?php echo \URL\IMG; ?>proj/warp-world.png">
 			</div>
 
 			<div class="nova row">
 				<div class="col-sm-4 col-sm-offset-1 col-sm-push-6" data-view-in-once="animated zoomInRight">
-					<h3 class="h2"><a href="//s1.parkshade.com/NovaBlaster.zip" target="_blank"><i class="fa fa-download"></i> Nova Blaster</a></h3>
+					<h3 class="h2"><a href="<?php echo \URL\STAT; ?>NovaBlaster.zip" target="_blank"><i class="fa fa-download"></i> Nova Blaster</a></h3>
 					<time>2009</time>
 					<p class="mt2 large tleft">
 						Galaga style shoot-em-up game.<br>
@@ -405,7 +405,7 @@
 						Last full game which I developed.
 						<i>Online Functionalities are inactive.</i>
 					</p>
-					<a href="//s1.parkshade.com/NovaBlaster.zip" class="btn large bg-blue bg-dblue-hover col-white"><i class="fa fa-download"></i> Download</a>
+					<a href="<?php echo \URL\STAT; ?>NovaBlaster.zip" class="btn large bg-blue bg-dblue-hover col-white"><i class="fa fa-download"></i> Download</a>
 				</div>
 				<img class="col-xs-12 col-sm-6 col-sm-pull-5" data-view-in-once="animated zoomInLeft" alt src="<?php echo \URL\IMG; ?>proj/nova-blaster.png">
 			</div>
