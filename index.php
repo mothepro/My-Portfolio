@@ -253,7 +253,7 @@
 			</div>
 		</div>
 
-		<div id="learn" class="container mt3" >
+		<div id="learn" class="container mt3" hidden>
 			<h2 class="h1 mb"><a href="#learn" class="namer col-orange fa fa-book"></a> What I am Learning</h2>
 			<ul class="h2 ib tleft">
 				<li class="mb"><a href="//redis.io/" target="_blank">Redis</a></li>
