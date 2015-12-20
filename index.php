@@ -63,8 +63,8 @@
 		<div class="row" data-view-in-once="animated fadeIn">
 			<div class="col-xs-6 col-xs-offset-3 col-sm-3 col-sm-offset-0 col-sm-push-8 mb2">
 				<div class="polariod">
-				    <img src="<?php echo \URL\IMG; ?>hero/mo.jpg" alt>
-				    Ivory Suit (2012)
+				    <img src="<?php echo \URL\IMG; ?>hero/mo-pro.jpg" alt><br>
+				    Professional Portrait (2015)
 				</div>
             </div>
 			<div class="col-xs-12 col-sm-5 col-sm-pull-3 col-sm-offset-1">
@@ -253,7 +253,7 @@
 			</div>
 		</div>
 
-		<div id="learn" class="container mt3" hidden>
+		<div id="learn" class="container mt3" >
 			<h2 class="h1 mb"><a href="#learn" class="namer col-orange fa fa-book"></a> What I am Learning</h2>
 			<ul class="h2 ib tleft">
 				<li class="mb"><a href="//redis.io/" target="_blank">Redis</a></li>
@@ -265,18 +265,6 @@
 
 		<div id="web" class="container mt3">
 			<h2 class="h1 m2"><a href="#web" class="namer col-purple fa fa-wifi"></a> Web Projects</h2>
-
-			<div class="appr row mb5">
-				<div class="col-sm-4 col-sm-offset-1" data-view-in-once="animated zoomInLeft">
-					<h3 class="h2"><a href="//appr.co" target="_blank">AppR</a></h3>
-					<time>August 2014 &mdash; December 2014</time>
-					<p class="mt2 large tleft">
-						At appR we're able to combine the creativity and product design of the west with the technical skill and expertise of the east, all while offering the best price on the market.<br> appR is a three-dimensional company that offers app development as a service, investments in tech startups, and an in-house development team that builds our own products and services.
-					</p>
-					<a href="//angel.co/appr" class="btn large bg-blue bg-dblue-hover col-white"><i class="fa fa-angellist"></i> AngelList</a>
-				</div>
-				<img src="<?php echo \URL\IMG; ?>proj/appr.png" data-view-in-once="animated zoomInRight" alt class="col-xs-12 col-sm-6 col-sm-offset-1">
-			</div>
 
 			<div class="curateking row mb5">
 				<div class="col-sm-4 col-sm-push-6 col-sm-offset-1" data-view-in-once="animated zoomInRight">
