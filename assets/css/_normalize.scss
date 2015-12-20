@@ -19,3 +19,7 @@ br + br {
 html, body {
   height: 100%;
 }
+
+a:focus, a:hover {
+  text-decoration: none;
+}
