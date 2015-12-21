@@ -1,0 +1,8 @@
+@import "compass/utilities/sprites";
+@import "lang/*.png";
+@include all-lang-sprites;
+
+@import "proj/*.png";
+
+$names: "beonitmedia" "curateking" "flow-arcade" "foci" "gravity" "mo-brain" "mo-universe" "nova-blaster" "parkshade" "warp-world";
+@include proj-sprites($names, true, proj);

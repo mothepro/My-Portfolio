@@ -186,11 +186,11 @@
 				<div class="webdev col-sm-4 col-sm-offset-1 p2 bg-lblue" data-view-in-once="animated zoomInLeft">
 
 					<div class="php mb he3 col-black">
-						<img src="<?php echo \URL\IMG; ?>lang/php.png" class="he3 w3 fleft" alt> 
+						<div class="he3 w3 fleft lang-php"></div>
 						PHP <small class="hidden-xs"><br>RESTful API (Server)</small>
 					</div>
 					<div class="mem mb he3 col-black">
-						<img src="<?php echo \URL\IMG; ?>lang/memcached.png" class="he3 w3 fleft" alt> 
+						<div class="he3 w3 fleft lang-memcached"></div>
 						Memcached &amp; Redis
 					</div>
 					<div class="sql he3 col-black">
@@ -210,7 +210,7 @@
 						CSS3 &amp; SASS
 					</div>
 					<div class="js he3 col-black">
-						<img src="<?php echo \URL\IMG; ?>lang/javascript.png" class="he3 w3 fleft" alt> 
+						<div class="he3 w3 fleft lang-javascript"></div>
 						Javascript &amp; jQuery <small class="hidden-xs"><br>RESTful API (Client)</small>
 					</div>
 					
@@ -221,11 +221,11 @@
 				<div class="app col-sm-4 col-sm-offset-1 p2 bg-lred" data-view-in-once="animated zoomInLeft">
 
 					<div class="cpp mb he3 col-black">
-						<img src="<?php echo \URL\IMG; ?>lang/cpp.png" class="he3 w3 fleft" alt> 
+						<div class="he3 w3 fleft lang-cpp"></div>
 						C++
 					</div>
 					<div class="java mb he3 col-black">
-						<img src="<?php echo \URL\IMG; ?>lang/java.png" class="he3 w3 fleft" alt> 
+						<div class="he3 w3 fleft lang-java"></div>
 						Java
 					</div>
 					<div class="android he3 col-black">
@@ -245,7 +245,7 @@
 						Unix &amp; Linux shell
 					</div>
 					<a class="gml block he3 col-black" href="//en.wikipedia.org/wiki/GameMaker:_Studio#Scripting">
-						<img src="<?php echo \URL\IMG; ?>lang/gml.png" class="he3 w3 fleft" alt> 
+						<div class="he3 w3 fleft lang-gml"></div>
 						Game Maker Language
 					</a>
 					
@@ -274,7 +274,7 @@
 						A compact, dynamic speed reading application. Reading is inherently time consuming because your eyes have to move from word to word and line to line. Now content is streamed by tokens which the human eye is able to comprehend rather quickly. 
 					</p>
 				</div>
-				<img class="col-xs-12 col-sm-6 col-sm-pull-5" data-view-in-once="animated zoomInLeft" alt src="<?php echo \URL\IMG; ?>proj/foci.png">
+				<div class="col-xs-12 col-sm-6 col-sm-pull-5 proj-foci" data-view-in-once="animated zoomInLeft"></div>
 			</div>
 
 			<div class="parkshade row mb5">
@@ -286,7 +286,7 @@
 						Both sides of the argument are show at the same time, to make opinions have a more equal light.
 					</p>
 				</div>
-				<img src="<?php echo \URL\IMG; ?>proj/parkshade.png" data-view-in-once="animated zoomInRight" alt class="col-xs-12 col-sm-6 col-sm-offset-1">
+				<div data-view-in-once="animated zoomInRight" class="col-xs-12 col-sm-6 col-sm-offset-1 proj-parkshade"></div>
 			</div>
 
 			<div class="curateking row mb5">
@@ -297,7 +297,7 @@
 						A content sharing application for professional social media accounts. CurateKing curates trending content, includes hashtags to the post, and even schedules the posts for the future to be shared later.
 					</p>
 				</div>
-				<img class="col-xs-12 col-sm-6 col-sm-pull-5" data-view-in-once="animated zoomInLeft" alt src="<?php echo \URL\IMG; ?>proj/curateking.png">
+				<div class="col-xs-12 col-sm-6 col-sm-pull-5 proj-curateking" data-view-in-once="animated zoomInLeft"></div>
 			</div>
 
 			<div class="beonit row mb5">
@@ -308,7 +308,7 @@
 						A really simple website generator. Data is stored in a flat file system. I developed this so I may create basic sites for small businesses in my local area.
 					</p>
 				</div>
-				<img src="<?php echo \URL\IMG; ?>proj/beonitmedia.png" data-view-in-once="animated zoomInRight" alt class="col-xs-12 col-sm-6 col-sm-offset-1">
+				<div data-view-in-once="animated zoomInRight" class="col-xs-12 col-sm-6 col-sm-offset-1 proj-beonitmedia"></div>
 			</div>
 
 			<div class="flowarcade row mb5">
@@ -319,7 +319,7 @@
 						My first dynamic website. Developed to host games which I made and found very fun. Community grew to around 300 members at its peak. Made money through the ads on the side.
 					</p>
 				</div>
-				<img class="col-xs-12 col-sm-6 col-sm-pull-5" data-view-in-once="animated zoomInLeft" alt src="<?php echo \URL\IMG; ?>proj/flow-arcade.png">
+				<div class="col-xs-12 col-sm-6 col-sm-pull-5 proj-flow-arcade" data-view-in-once="animated zoomInLeft"></div>
 			</div>
 		</div>
 
@@ -336,10 +336,10 @@
 					</p>
 					<a href="<?php echo \URL\STAT; ?>Mo-Brain.exe" class="btn large bg-blue bg-dblue-hover col-white"><i class="fa fa-download"></i> Download</a>
 				</div>
-				<img class="col-xs-12 col-sm-6 col-sm-offset-1" data-view-in-once="animated zoomInLeft" alt src="<?php echo \URL\IMG; ?>proj/mo-brain.png">
+				<div class="col-xs-12 col-sm-6 col-sm-offset-1 proj-mo-brain" data-view-in-once="animated zoomInLeft"></div>
 			</div>
 
-			<div class="gravit row">
+			<div class="gravity row">
 				<div class="col-sm-4 col-sm-offset-1 col-sm-push-6" data-view-in-once="animated zoomInLeft">
 					<h3 class="h2"><a href="<?php echo \URL\STAT; ?>Gravity.exe" target="_blank">Particle Simulator</a></h3>
 					<time>2012</time>
@@ -349,7 +349,7 @@
 					</p>
 					<a href="<?php echo \URL\STAT; ?>Gravity.exe" class="btn large bg-blue bg-dblue-hover col-white"><i class="fa fa-download"></i> Download</a>
 				</div>
-				<img class="col-xs-12 col-sm-6 col-sm-pull-5" data-view-in-once="animated zoomInRight" alt src="<?php echo \URL\IMG; ?>proj/gravity.png">
+				<div class="col-xs-12 col-sm-6 col-sm-pull-5 proj-gravity" data-view-in-once="animated zoomInRight"></div>
 			</div>
 		</div>
 
@@ -366,7 +366,7 @@
 					</p>
 					<a href="<?php echo \URL\STAT; ?>Mo-Universe.exe" class="btn large bg-blue bg-dblue-hover col-white"><i class="fa fa-download"></i> Download</a>
 				</div>
-				<img class="col-xs-12 col-sm-6 col-sm-pull-5" data-view-in-once="animated zoomInLeft" alt src="<?php echo \URL\IMG; ?>proj/mo-universe.png">
+				<div class="col-xs-12 col-sm-6 col-sm-pull-5 proj-mo-universe" data-view-in-once="animated zoomInLeft"></div>
 			</div>
 
 			<div class="warp row mb5">
@@ -380,7 +380,7 @@
 					</p>
 					<a href="<?php echo \URL\STAT; ?>WarpWorld.zip" class="btn large bg-blue bg-dblue-hover col-white"><i class="fa fa-download"></i> Download</a>
 				</div>
-				<img class="col-xs-12 col-sm-6 col-sm-offset-1" data-view-in-once="animated zoomInRight" alt src="<?php echo \URL\IMG; ?>proj/warp-world.png">
+				<div class="col-xs-12 col-sm-6 col-sm-offset-1 proj-warp-world" data-view-in-once="animated zoomInRight"></div>
 			</div>
 
 			<div class="nova row">
@@ -395,7 +395,7 @@
 					</p>
 					<a href="<?php echo \URL\STAT; ?>NovaBlaster.zip" class="btn large bg-blue bg-dblue-hover col-white"><i class="fa fa-download"></i> Download</a>
 				</div>
-				<img class="col-xs-12 col-sm-6 col-sm-pull-5" data-view-in-once="animated zoomInLeft" alt src="<?php echo \URL\IMG; ?>proj/nova-blaster.png">
+				<div class="col-xs-12 col-sm-6 col-sm-pull-5 proj-nova-blaster" data-view-in-once="animated zoomInLeft"></div>
 			</div>
 		</div>
 	</div>
