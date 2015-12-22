@@ -61,9 +61,9 @@
 	<div class="intro container bigger pt5 pb5" id="more">
 		<h2 class="h1"><a href="#more" class="namer col-black fa fa-smile-o"></a> Hey, I'm Maurice</h2><br>
 		<div class="row" data-view-in-once="animated fadeIn">
-			<div class="col-xs-6 col-xs-offset-3 col-sm-3 col-sm-offset-0 col-sm-push-8 mb2">
+			<div class="col-xs-12 col-sm-3 col-sm-offset-0 col-sm-push-8 mb2">
 				<div class="polariod">
-				    <img src="<?php echo \URL\IMG; ?>hero/mo-pro.jpg" alt><br>
+				    <img src="<?php echo \URL\IMG; ?>hero/mo-pro.jpg" alt width="200" height="200"><br>
 				    Professional Portrait (2015)
 				</div>
             </div>

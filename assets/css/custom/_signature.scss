@@ -27,6 +27,7 @@
 
 .polariod {
 	padding: 1em;
+	display: inline-block;
 	@include transform(rotate(2deg) scale(0.9));
 	@include transition(.15s linear);
 	@include box-shadow(0 .25em .5em transparentize(black, 0.25));
@@ -37,6 +38,6 @@
 	}
 
 	img {
-		padding-bottom: 1em;
+		margin-bottom: 1em;
 	}
 }
